@@ -1,0 +1,146 @@
+/* main styling */
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    margin: 0;
+}
+
+a:link {
+    color: seashell;
+}
+
+a:visited {
+    color: seashell;
+}
+
+/*header*/
+
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+    position: fixed;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+/*main*/
+
+.navigation li {
+    display: inline-flex;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.mission {
+    background-image: url(./images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.mission h2, .mission h4 {
+    background-color: black; 
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mission h2 {
+    padding-bottom: 10px;
+}
+
+/*featured tea*/
+
+#featured-tea {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tea-imgs img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-imgs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tea-imgs h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/*locations*/
+
+#locations {
+    background-image: url(./images/img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.locations-header h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.downtown, .east, .oakdale {
+    width: 300px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    margin: 14px;
+}
+
+.copyright {
+    margin-left: 20px;
+}
